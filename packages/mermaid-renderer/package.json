@@ -7,7 +7,7 @@
     ".": "./src/renderer.ts"
   },
   "scripts": {
-    "build": "vite build"
+    "build": "node init && vite build"
   },
   "dependencies": {
     "@openclaw/normalization-core": "workspace:*",
